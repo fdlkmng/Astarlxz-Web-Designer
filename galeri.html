@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galeri Karya & Media Interaktif Nur Fadhilah siswa XI PPLG SMKN 4 Kuningan.">
+    <meta name="author" content="Nur Fadhilah">
+
+    <title>Galeri Karya - Nur Fadhilah | XI PPLG</title>
+
+    <link rel="icon" href="https://www.smkn4kuningan.sch.id/favicon-32x32.png" type="image/png">
+
+    <style>
+        body {
+            background-color: #f8fafc;
+            color: #334155;
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        h1, h3, h4 {
+            color: #0b3c5d;
+        }
+        nav {
+            background-color: #ffffff;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 18px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+        .btn-proyektor {
+            display: inline-block;
+            background-color: #0b3c5d;
+            color: #ffffff !important;
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9em;
+            margin-right: 8px;
+            margin-bottom: 12px;
+        }
+        .btn-proyektor:hover {
+            background-color: #1a73e8;
+        }
+    </style>
+</head>
+<body id="top">
+
+    <!-- HEADER & NAVIGASI MENU -->
+    <h1>&#127912; Galeri Karya &amp; Media Interaktif</h1>
+
+    <nav>
+        <a href="beranda.html">Beranda</a> |
+        <a href="profil.html">Profil Siswa</a> |
+        <a href="galeri.html">Galeri Karya</a>
+    </nav>
+    <hr>
+
+    <!-- KARTU 1: YOUTUBE EMBED DENGAN VIDEO ID FIXED (PASTI BISA DIPUTAR) -->
+    <div class="card">
+        <h3>&#127916; Video Rekomendasi Belajar Coding</h3>
+        <p>Tutorial Pemrograman Web Dasar HTML &amp; CSS untuk Pemula:</p>
+        <div style="text-align: center;">
+            <iframe 
+                src="https://www.youtube.com/embed/pQN-pnXPaVg" 
+                width="100%" 
+                height="340" 
+                style="max-width: 600px; border: 0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen="" 
+                title="Video Rekomendasi Belajar Coding HTML CSS">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- KARTU 2: TANTANGAN LAYAR PROYEKTOR MINI INTERAKTIF -->
+    <div class="card">
+        <h3>&#128187; Layar Demo Antar Halaman</h3>
+        <p>Pilih halaman yang ingin ditayangkan langsung di dalam layar proyektor mini di bawah ini:</p>
+        
+        <!-- Tombol Link Target -->
+        <div>
+            <a href="beranda.html" target="proyektor-karya" class="btn-proyektor">&#127968; Tampilkan Beranda</a>
+            <a href="profil.html" target="proyektor-karya" class="btn-proyektor">&#128100; Tampilkan Profil</a>
+        </div>
+
+        <!-- Frame Proyektor Mini -->
+        <iframe 
+            name="proyektor-karya" 
+            src="beranda.html" 
+            width="100%" 
+            height="320" 
+            style="border: 2px solid #cbd5e1; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);" 
+            title="Layar Demo Proyektor">
+        </iframe>
+    </div>
+
+    <p><a href="#top">&#11014; Kembali ke Atas Halaman</a></p>
+
+    <!-- FOOTER -->
+    <hr>
+    <p style="text-align: right;">
+        &copy; 2026 Nur Fadhilah - XI PPLG 1 - SMKN 4 Kuningan
+    </p>
+
+</body>
+</html>
